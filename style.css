@@ -1,0 +1,50 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: azure;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    padding: 30px;
+    margin:0;
+    font-size: 72px;
+    color:darkslategray;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
+
+.panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+input {
+    height: 80px;
+    width: 80px;
+}
+
+button {
+    font-size: inherit;
+    width: 150px;
+    border: 1px solid rgb(48, 49, 48);
+    background-color: beige;
+    border-radius: 4px;
+}
