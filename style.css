@@ -1,7 +1,7 @@
 html, body {
     margin: 0;
     padding: 0;
-    background-color: azure;
+    background-color: #ededed;
 }
 
 header {
@@ -12,13 +12,14 @@ header h1 {
     padding: 30px;
     margin:0;
     font-size: 72px;
-    color:darkslategray;
+    color:#333;
 }
 
 main {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 100px;
 }
 
 footer {
@@ -33,7 +34,7 @@ footer {
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 input {
@@ -47,4 +48,28 @@ button {
     border: 1px solid rgb(48, 49, 48);
     background-color: beige;
     border-radius: 4px;
+}
+
+.canvas {
+    margin: 0;
+    padding: 0;
+    width: 512px;
+    height: 512px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+.grids {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid {
+    background-color: #fefefe;
 }
